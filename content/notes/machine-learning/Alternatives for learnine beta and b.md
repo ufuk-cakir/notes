@@ -8,7 +8,8 @@ title: "Alternatives for learnine beta and b"
 \operatorname{loss}\left(Y_i^*, \hat{Y}_i\right)=\left(Y_i^*-(x \beta+b)\right)^2
 $$
 3. Fishers original idea: define 1D scores: 
-4. $$z_{i}= x_{i}\beta$$ and choose beta such that a threshold classifier on z_i has minimum error
+4. $$z_{i}= x_{i}\beta$$
+5. and choose beta such that a threshold classifier on z_i has minimum error
 define Projection of means 
 $$
 \tilde{\mu}_1=\mu_{1} \beta \quad \tilde{\mu}_{-1}=\mu_{-1} \beta
