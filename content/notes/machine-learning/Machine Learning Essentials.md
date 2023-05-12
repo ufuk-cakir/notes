@@ -1,4 +1,10 @@
-#ml 
+
+---
+title: "Machine Learning Essentials"
+tags:
+- ml
+---
+
 
 - 02.05.2023 ![[Cross Validation]]
 - ![[Linear Discriminant Analysis]]

@@ -1,3 +1,7 @@
+---
+title: "Youtube Tutorial Brubaker Normalizing Flows"
+---
+
 https://www.youtube.com/watch?v=u3vVyFVU_lI&ab_channel=MarcusBrubaker
 
 

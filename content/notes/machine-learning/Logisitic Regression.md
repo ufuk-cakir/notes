@@ -1,3 +1,7 @@
+---
+title: "Logisitic Regression"
+---
+
 Use the same posterior as [[Linear Discriminant Analysis]], but train LHS of Bayes rule, which gives a different solution.
 
 

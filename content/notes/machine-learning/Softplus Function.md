@@ -1,3 +1,8 @@
+---
+title: "Softplus Function"
+---
+
+
 $$
 -\log \sigma(t)=-\log \frac{1}{1+\exp (-t)}=\log (1+\exp (-t))
 $$

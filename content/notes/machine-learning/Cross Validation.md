@@ -1,3 +1,8 @@
+---
+title: "Cross Validation"
+---
+
+
 How to find good parameter?
 The Support Vector Machine has a hyper parameter: relative Weight of the data and regularization term.
 

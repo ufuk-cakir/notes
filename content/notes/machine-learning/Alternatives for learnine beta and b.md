@@ -1,3 +1,7 @@
+---
+title: "Alternatives for learnine beta and b"
+---
+
 ## Alternatives for learning $\beta$ and b
 1. fit mean and covariance of clusters
 2. least- squares regression: $$

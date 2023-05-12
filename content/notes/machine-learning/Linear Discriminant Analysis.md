@@ -1,3 +1,8 @@
+---
+title: "Linear Discriminant Analysis"
+---
+
+
 Idea:
 - We have two classes and we assume that the features of each class form a cluster
 - then we model each cluster as a gaussian distribution, which means we have a generative model i.e the RHS of Bayes

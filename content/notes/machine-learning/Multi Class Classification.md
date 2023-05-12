@@ -1,3 +1,7 @@
+---
+title: "Multi Class Classification"
+---
+
 Two Possibilites:
 
 - reduce to a set of 2-class problems

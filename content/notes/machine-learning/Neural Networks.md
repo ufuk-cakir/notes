@@ -1,3 +1,7 @@
+---
+title: "Neural Networks"
+---
+
 Definition of a Neuron:
 
 - inputs $Z_{in}$ (row vector)

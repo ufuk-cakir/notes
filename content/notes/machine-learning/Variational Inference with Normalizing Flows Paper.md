@@ -1,3 +1,8 @@
+---
+title: "Variational Inference with Normalizing Flows Paper"
+---
+
+
 https://arxiv.org/pdf/1505.05770v6.pdf
 
 

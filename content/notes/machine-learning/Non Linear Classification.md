@@ -1,3 +1,7 @@
+---
+title: "Non Linear Classification"
+---
+
 Used when Data is not Linear separable
 
 0. Bad Practise: Use LR and hope for the best. Exception: Very sparse data, when its hard to justify non-linear fit
