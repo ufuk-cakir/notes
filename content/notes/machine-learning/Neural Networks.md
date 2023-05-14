@@ -27,4 +27,40 @@ $$
 \text { Swish }\left(z^{\prime}\right)=z^{\prime} \cdot \sigma\left(z^{\prime}\right)
 $$
 
-- 
+
+
+---
+
+A Neural Network is simple created by connecting many Neurons 
+ - in parallel: these neurons form a layer
+ - in series: "deep", means that we have many layers
+
+Basic Network type: fully connected, each Neuron is connected with every neuron on the next layer
+
+In around 2005, People discovered that GPUs could implement these Networks really efficiently, which enabled much bigger networks and improve results. Additionally, big data became available for the first time, and you need big data in order to train a big network.
+
+--- 
+## Activations Functions
+
+The activation functions $\varphi_1,...,\varphi_{L-1}$ (where $L$ is the number of layers not counting the input) are chosen by the designer ("hyperparamter"), and is usually ReLU or ELU or swish.
+
+The last layer $\varphi_L$ is determined by application:
+- regression ($Y\in \mathbb{R}$ ): identity
+- classification ($\left.p(Y=k \mid x\right))$ where $Y$ is a vector: softmax
+
+Possible interpretation: 
+- $Z_{L-1}=\psi([1,X])$: non-linear transformation of features (learned!) to fulfill requirements of last layer algorithm. The $\psi$ function is the entire network until the last layer. 
+- $Z_L=\varphi_L\left(\left[1, Z_{L-1}\right] \cdot \beta_L\right)$: classical algorithm, e.g least squares regression, logistic regression(for classification)
+
+
+# Important theorems
+
+1. **Neural Networks with at least 2 layers are universal approximators**: This means that if the Network is big enough i.e we have enough neurons in the hidden layer, we can approximate **any** function to **any** desired accuracy. But: This is a purely existential proof: It says that the network exists, but it doesnt say anything about how to find (train) it. ("The solution exists but we have no idea how to compute it")
+2. **Finding the optimal network is NP-hard (takes exponential time in network size)**: If you make your network bigger you have a lower chance to finding the optimal parameters, so you need approximation algorithms are needed.
+
+The error people did up to 2005 was that since 2-layers are sufficient, only use 2-layer nets. But it was found that deeper networks are easier to train since the probability that you end up in a good local optimum is essentially 1
+
+
+Trainint of these Networks is done by [[Backpropagation]]
+
+

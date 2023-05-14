@@ -1,10 +1,10 @@
-
 ---
 title: "Machine Learning Essentials"
 tags:
 - ml
 ---
 
+Here are my Lecture Notes of the Machine Learning Essentials Lecture by Ullrich Köthe , SS 2023, Heidelberg.
 - 02.05.2023:
 	- [[Cross Validation]]
 	- [[Linear Discriminant Analysis]]
@@ -14,6 +14,8 @@ tags:
 	- [[Multi Class Classification]]
 	- [[Non Linear Classification]]
 	- [[Neural Networks]]
-
+- 12.05: 
+	- [[Backpropagation]]
+	- 
 
 
