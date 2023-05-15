@@ -85,17 +85,11 @@ This way we can use simple transformation, which each have a tractable inverse a
 > Tractable Jacobian Determinant: We can always compute a jacobian matrix of a differentiable function with $D$ inputs and $D$ outputs using $D$ passes of either forward or reverse mode automatic differentiation. This computation results in a time cost of $\mathcal{O}\left(D^3\right)$ which can be intractable for large D. For flow based models we expect the jacobion detereminant computation to be at most linear in $D$.
 
 So by assuming $z_0 = u$ and $z_K = x$ the forward evaluation is 
-$$
-\mathbf{z}_k=T_k\left(\mathbf{z}_{k-1}\right) \quad \text { for } k=1, \ldots, K
-$$
+$$\mathbf{z}_k=T_k\left(\mathbf{z}_{k-1}\right) \quad \text { for } k=1, \ldots, K$$
 the inverse evaluation is:
-$$
-\mathbf{z}_{k-1}=T_k^{-1}\left(\mathbf{z}_k\right) \quad \text { for } k=K, \ldots, 1,
-$$
+$$\mathbf{z}_{k-1}=T_k^{-1}\left(\mathbf{z}_k\right) \quad \text { for } k=K, \ldots, 1,$$
 and the Jacobian-determinant computation (in the log domain) is:
-$$
-\log \left|\operatorname{det} J_T\left(\mathbf{z}_0\right)\right|=\log \left|\prod_{k=1}^K \operatorname{det} J_{T_k}\left(\mathbf{z}_{k-1}\right)\right|=\sum_{k=1}^K \log \left|\operatorname{det} J_{T_k}\left(\mathbf{z}_{k-1}\right)\right|
-$$
+$$\log \left|\operatorname{det} J_T\left(\mathbf{z}_0\right)\right|=\log \left|\prod_{k=1}^K \operatorname{det} J_{T_k}\left(\mathbf{z}_{k-1}\right)\right|=\sum_{k=1}^K \log \left|\operatorname{det} J_{T_k}\left(\mathbf{z}_{k-1}\right)\right|$$
 The computational complexity grows like $\mathcal{O}(K)$ with increasing depth i.e number of composed sub-flows.
 
 
