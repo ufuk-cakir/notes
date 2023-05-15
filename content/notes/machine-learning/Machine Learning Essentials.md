@@ -8,7 +8,7 @@ Here are my Lecture Notes of the Machine Learning Essentials Lecture by Ullrich 
 - 02.05.2023:
 	- [[Cross Validation]]
 	- [[Linear Discriminant Analysis]]
-	- [[Alternatives for learnine beta and b]]
+	- [[notes/machine-learning/Alternatives for learning beta and b]]
 - 09.05.23 Session 8
 	- [[Summary Linear Classification]]
 	- [[Multi Class Classification]]
