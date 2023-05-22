@@ -14,21 +14,18 @@ But how do we find such function? It is very complicated task, since this transf
 ## Definition and Basics
 
 Suppose you have a $D$ dimensional real vector $x$. The main goal is to express $x$ as a transformation of a real vector $u$ sampled from a distribution $p_u(u)$, meaning
-$$
-\mathbf{x}=T(\mathbf{u}) \text { where } \quad \mathbf{u} \sim p_{\mathrm{u}}(\mathbf{u})
-$$
+$$\mathbf{x}=T(\mathbf{u}) \text { where } \quad \mathbf{u} \sim p_{\mathrm{u}}(\mathbf{u})$$
 we call $p_u(u)$ the **base distribution** of the flow based model. The transformation $T$ needs to have special properties:
 - $T$ must be invertible
 - $T$ and $T^{-1}$ must be differentiable
 
 > [!note]
 >  Invertible and differentiable transformations are composable:
->  $$
-\begin{aligned}
+>  $$\begin{aligned}
 \left(T_2 \circ T_1\right)^{-1} & =T_1^{-1} \circ T_2^{-1} \\
 \operatorname{det} J_{T_2 \circ T_1}(\mathbf{u}) & =\operatorname{det} J_{T_2}\left(T_1(\mathbf{u})\right) \cdot \operatorname{det} J_{T_1}(\mathbf{u}) .
-\end{aligned}
-$$
+\end{aligned}$$
+
 
 Such transformation are known as [[diffeomorphisms]], and they require that $u$ be $D$-dimensional as well. It follows that the density of $x$ is well defined and can be calculated by the change of variables:
 $$
@@ -69,9 +66,7 @@ In other words: We want to prove that for any pair of well-behaved distribution 
 (proof?)
 
 ## Fitting flow-based models
-Fitting a flow based model $p_X(x;\theta)$ to a target distribution $p_x^*(x)$ is done by minimizing some kind of divergence or discrepancy between them. The minimization is performed w.rt the parameters  of the model $$
-\boldsymbol{\theta}=\{\phi, \psi\}
-$$
+Fitting a flow based model $p_X(x;\theta)$ to a target distribution $p_x^*(x)$ is done by minimizing some kind of divergence or discrepancy between them. The minimization is performed w.rt the parameters  of the model $$\boldsymbol{\theta}=\{\phi, \psi\}$$
 where $\phi$ are the parameters of the transformation $T$ and $\psi$ are the parameters of $p_u(u)$. The most popular divergence for fitting flow-based models is the **Kullback-Leibler (KL)** divergence.
 
 
