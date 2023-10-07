@@ -8,13 +8,9 @@ Use the same posterior as [[Linear Discriminant Analysis]], but train LHS of Bay
 - i.i.d assumption: all labels are drawn independently from same posterior
 
 
-$$
-p((Y_{i}^{*})_{i=1}^{N} \mid (X_{i})_{i=1}^{N})=\prod_{i=0}^Np(Y_i^{*} \mid X_i)
-$$
+$$p((Y_{i}^{*})_{i=1}^{N} \mid (X_{i})_{i=1}^{N})=\prod_{i=0}^Np(Y_i^{*} \mid X_i)$$
 - Maximum Likelihood Principle: choose Parameters such that posterior of TS is maximized
-$$
-\hat{\beta},\hat{b} =\text { argmax }_{\beta, b} \prod_{i=1}^{N} p\left(Y_{i}^{*}\mid X_{i}\right)
-$$ $$=\arg \min-\sum\limits_{i}^{N}\log p\left(Y_{i}^{*}\mid X_{i}\right)= \arg \min \sum\limits_{i: Y_{i}^{*}=1} \sigma(x\beta+b)-\sum\limits_{i: Y_{i}^{*}=-1} \sigma(-(x\beta+b)) $$
+$$\hat{\beta},\hat{b} =\text { argmax }_{\beta, b} \prod_{i=1}^{N} p\left(Y_{i}^{*}\mid X_{i}\right)$$ $$=\arg \min-\sum\limits_{i}^{N}\log p\left(Y_{i}^{*}\mid X_{i}\right)= \arg \min \sum\limits_{i: Y_{i}^{*}=1} \sigma(x\beta+b)-\sum\limits_{i: Y_{i}^{*}=-1} \sigma(-(x\beta+b))$$
 
 
 which gives
@@ -27,15 +23,12 @@ What is the logarithm of the sigmoid?
 
 
 Common convention in literature is to write the labels as
-$$
-y_i^* \in\{0,1\}
-$$
+$$y_i^* \in\{0,1\}$$
 Then the Logistic Regression Objective is
 
 
-$$
-\hat{\beta}, \hat{b}=\arg \min _{\beta, s}-\sum_{i=1}^N\left[Y _ { i } ^ { * } \log \sigma\left(x \beta+b)+\left(1-Y_i^*\right) \log \sigma(-(x \beta+b))]\right.\right.
-$$
+$$\hat{\beta}, \hat{b}=\arg \min_{\beta, s}-\sum_{i=1}^N\left[Y_{ i }^{*}\log \sigma\left(x \beta+b)+\left(1-Y_i^*\right) \log \sigma(-(x \beta+b))]\right.\right.$$
+
 This has no analytic solution, but it is a convex objective, which means that iterative algorithms have unique solutions
 So we make a simplifaction that if the features are centered, we can set $b=0$
 
