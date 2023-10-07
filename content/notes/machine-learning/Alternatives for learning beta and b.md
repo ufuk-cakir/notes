@@ -5,7 +5,7 @@ title: "Alternatives for learnine beta and b"
 ## Alternatives for learning $\beta$ and b
 1. fit mean and covariance of clusters
 2. least- squares regression: $$
-\operatorname{loss}\left(Y_i^*, \hat{Y}_i\right)=\left(Y_i^*-(x \beta+b)\right)^2
+\operatorname{loss}\left(Y_i^\ast, \hat{Y}_i\right)=\left(Y_i^\ast-(x \beta+b)\right)^2
 $$
 3. Fishers original idea: define 1D scores: 
 4. $$z_{i}= x_{i}\beta$$
@@ -24,7 +24,7 @@ Since we could scale $\beta$ by any number $\tau$ and get the same projection, b
 Solution: Scale by the variance!
 
 $$
-\sigma_1^2=\operatorname{Var}\left(z_i \mid Y_i^*=1\right) \quad \sigma_{-1}^2=\operatorname{Var}\left(z_i \mid Y_i^*=-1\right)
+\sigma_1^2=\operatorname{Var}\left(z_i \mid Y_i^\ast=1\right) \quad \sigma_{-1}^2=\operatorname{Var}\left(z_i \mid Y_i^\ast=-1\right)
 $$
 
 And then choose

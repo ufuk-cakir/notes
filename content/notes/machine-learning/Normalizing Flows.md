@@ -15,7 +15,7 @@ But how do we find such function? It is very complicated task, since this transf
 
 Suppose you have a $D$ dimensional real vector $x$. The main goal is to express $x$ as a transformation of a real vector $u$ sampled from a distribution $p_u(u)$, meaning
 $$\mathbf{x}=T(\mathbf{u}) \text { where } \quad \mathbf{u} \sim p_{\mathrm{u}}(\mathbf{u})$$
-we call $p_u(u)$ the **base distribution** of the flow based model. The transformation $T$ needs to have special properties:
+we call $p_u(u)$ the \ast\astbase distribution\ast\ast of the flow based model. The transformation $T$ needs to have special properties:
 - $T$ must be invertible
 - $T$ and $T^{-1}$ must be differentiable
 
@@ -66,8 +66,8 @@ In other words: We want to prove that for any pair of well-behaved distribution 
 (proof?)
 
 ## Fitting flow-based models
-Fitting a flow based model $p_X(x;\theta)$ to a target distribution $p_x^*(x)$ is done by minimizing some kind of divergence or discrepancy between them. The minimization is performed w.rt the parameters  of the model $$\boldsymbol{\theta}=\{\phi, \psi\}$$
-where $\phi$ are the parameters of the transformation $T$ and $\psi$ are the parameters of $p_u(u)$. The most popular divergence for fitting flow-based models is the **Kullback-Leibler (KL)** divergence.
+Fitting a flow based model $p_X(x;\theta)$ to a target distribution $p_x^\ast(x)$ is done by minimizing some kind of divergence or discrepancy between them. The minimization is performed w.rt the parameters  of the model $$\boldsymbol{\theta}=\{\phi, \psi\}$$
+where $\phi$ are the parameters of the transformation $T$ and $\psi$ are the parameters of $p_u(u)$. The most popular divergence for fitting flow-based models is the \ast\astKullback-Leibler (KL)\ast\ast divergence.
 
 
 

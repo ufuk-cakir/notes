@@ -50,9 +50,9 @@ $$N\left(x_i \mid \mu_1, \Sigma_1\right)=\frac{\exp \left(-\frac{1}{2}(\mathbf{x
 Learning Problem: Find the mean and covariance of class 1 $\mu_1,\Sigma_1$
 
 Fundamental Principle: Choose $\mu_1,\Sigma_1$ such that the Training set will be a typical outcome of the resulting model. You want to choose the model such that If you draw data from the model it should look very similar to the trainin set. This is called the 
-**Maximum Likelihood Principle**: The best model maximises the likelihood of the Trainin set
+\ast\astMaximum Likelihood Principle\ast\ast: The best model maximises the likelihood of the Trainin set
 
-- Second Principle: i.i.d assumption: Training instances are drawn *independently* from the trainin set, and they are *identically distributed*
+- Second Principle: i.i.d assumption: Training instances are drawn \astindependently\ast from the trainin set, and they are \astidentically distributed\ast
 Why is this important? We can simplify the TS distribution:
 Independent means that the joint distribution is the product of the individual distributions. Identically distributed means that all the instances come from the same prob-distribution, so I dont need a $p_i$ 
 $$p(TS) = p(x_1, \dots, x_n)= \prod p(x_i)$$
