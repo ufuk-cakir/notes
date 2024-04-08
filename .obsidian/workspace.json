@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5b288355f54d3b9f",
+        "id": "976ebd2f3edcb2e4",
         "type": "tabs",
         "children": [
           {
-            "id": "4482e13c08b612b4",
+            "id": "7b7afc63f51e5f03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/notes/lectures/computational-statistics/Multivariate Gaussian.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1fcb19f0cf70bd6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/templates/post.md",
+                "file": "content/notes/lectures/computational-statistics/lecture-comp-stat.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/notes/lectures/computational-statistics/Multivariate Gaussian.md",
+                "file": "content/notes/lectures/computational-statistics/lecture-comp-stat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/notes/lectures/computational-statistics/Multivariate Gaussian.md",
+                "file": "content/notes/lectures/computational-statistics/lecture-comp-stat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/notes/lectures/computational-statistics/Multivariate Gaussian.md"
+                "file": "content/notes/lectures/computational-statistics/lecture-comp-stat.md"
               }
             }
           }
@@ -155,18 +143,23 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "4482e13c08b612b4",
+  "active": "7b7afc63f51e5f03",
   "lastOpenFiles": [
-    "content/notes/machine-learning/Multi variate Gaussian.md",
-    "content/templates/post.md",
-    "content/notes/lectures/computational-statistics/Multivariate Gaussian.md",
-    "content/notes/lectures/computational-statistics/lecture-comp-stat.md",
     "content/notes/machine-learning/Linear Discriminant Analysis.md",
-    "content/notes/lectures/computational-statistics/Conjugate Prior.md",
+    "content/notes/lectures/computational-statistics/lecture-comp-stat.md",
+    "content/notes/lectures/computational-statistics/Lasso Regression.md",
     "content/notes/lectures/computational-statistics/Exponential Family.md",
+    "content/notes/lectures/computational-statistics/Conjugate Prior.md",
+    "content/notes/lectures/computational-statistics/Ridge Regression.md",
+    "content/notes/lectures/computational-statistics/Regularization.md",
+    "content/templates/post.md",
+    "static/icon.png",
+    "content/notes/lectures/computational-statistics/Multivariate Gaussian.md",
+    "content/notes/machine-learning/Multi variate Gaussian.md",
     "content/notes/machine-learning/Multi Class Classification.md",
     "content/notes/machine-learning/Neural Networks.md",
     "content/notes/machine-learning/Non Linear Classification.md",

@@ -6,40 +6,38 @@ title: "📚 Lecture: Computational Statistics and Data Analysis"
 
 
 # Important Topics
+Some of the topics that were covered in the lecture (not in the correct order!).
 - [[Exponential Family]]
-  - Sufficient statistics for Poisson distribution
 - [[Conjugate Prior]]
-  - For Gaussian distributed prior
 - [[Multivariate Gaussian]]
+- [[General Linear Model]]
+- [[Model Parameter Estimation]]
+	- Least Squares Estimator
+	- Maximum Likelihood
+	- Maximum a Posteriori Estimation
+- [[Distribution of Regression Coefficients]]
+- [[Testing Model Parameters]]
+	- t-test
+	- f-test
+	- Likelihood Ratio Test (LLR)
+- [[Non-linear Regression]]
+- [[Local Linear Regression]]
 - [[Regularization]]
-  - Implicit and explicit
 - [[Ridge Regression]]
 - [[Lasso Regression]]
-- [[Model Parameter Estimation]]
-  - Least Squares Estimator
-  - Maximum Likelihood
-  - Maximum a Posteriori Estimation
-- [[Testing Model Parameters]]
-  - t-test
-  - f-test
-  - Likelihood Ratio Test (LLR)
-- [[Non-linear Regression]]
-  - Local Linear Regression
 - [[Bias Variance Tradeoff]]
+	- [[Double Descent]]
 - [[Cross Validation]]
-  - Choice of best kernel width for Local Linear Regression
 - [[Support Vector Machines]]
-  - Maximum-Margin Classifier
-- [[General Linear Model]]
-  - Components: Regressor, Response, Regression Coefficients, Gaussian Noise
-- [[Distribution of Regression Coefficients]]
-  - Normally distributed
-- [[Local Linear Regression]]
-  - Application to non-linear problems through basis expansion
-- [[Types of Parameter Estimators]]
-  - Differences between Maximum Likelihood and Bayesian approaches
-- [[Linear Discriminant Analysis]]
 - [[Logistic Regression]]
+- [[Linear Discriminant Analysis]]
 - [[Quadratic Discriminant Analysis]]
 - [[Bootstrap Based Test]]
-- 
+
+
+
+
+# Anki Flashcards
+I created anki flashcards for this lecture to prepare for my Oral Exams. I am happy to share them, just write me an email :)
+
+[ufukcakir2001@gmail.com](ufukcakir2001@gmail.com)
