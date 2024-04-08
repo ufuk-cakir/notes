@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/notes/lectures/computational-statistics/lecture-comp-stat.md",
+                "file": "content/_index.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Cross Valida",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/notes/lectures/computational-statistics/lecture-comp-stat.md",
+                "file": "content/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/notes/lectures/computational-statistics/lecture-comp-stat.md",
+                "file": "content/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/notes/lectures/computational-statistics/lecture-comp-stat.md"
+                "file": "content/_index.md"
               }
             }
           }
@@ -149,8 +149,11 @@
   },
   "active": "7b7afc63f51e5f03",
   "lastOpenFiles": [
+    "content/notes/lectures/computational-statistics/Computational Statistics and Data Analysis.md",
+    "content/_index.md",
+    "content/notes/machine-learning/Cross Validation.md",
+    "content/notes/machine-learning/Machine Learning Essentials.md",
     "content/notes/machine-learning/Linear Discriminant Analysis.md",
-    "content/notes/lectures/computational-statistics/lecture-comp-stat.md",
     "content/notes/lectures/computational-statistics/Lasso Regression.md",
     "content/notes/lectures/computational-statistics/Exponential Family.md",
     "content/notes/lectures/computational-statistics/Conjugate Prior.md",
@@ -167,15 +170,12 @@
     "content/notes/machine-learning/Normalizing Flows.md",
     "content/notes/machine-learning/Softplus Function.md",
     "content/notes/machine-learning/Summary Linear Classification.md",
-    "content/notes/machine-learning/Cross Validation.md",
     "content/notes/machine-learning/cross-entropy loss.md",
     "content/notes/machine-learning/Mode Collapse.md",
     "content/notes/machine-learning/Logisitic Regression.md",
     "content/notes/machine-learning/Gaussian Distribution in 1-D.md",
     "content/notes/machine-learning/Covariance Matrix.md",
     "content/notes/machine-learning/Backpropagation.md",
-    "content/notes/machine-learning/Alternatives for learning beta and b.md",
-    "content/_index.md",
     "content/notes/lectures/computational-statistics",
     "content/notes/lectures"
   ]

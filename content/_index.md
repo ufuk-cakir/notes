@@ -20,7 +20,7 @@ Ufuk
 
 ---
 # Check this out!
-- [[]]
+- [[content/notes/lectures/computational-statistics/Computational Statistics and Data Analysis|Computational Statistics and Data Analysis]]: Lecture Notes
 - [[notes/machine-learning/Machine Learning Essentials]]: Lecture Notes (experimental)
 
 
