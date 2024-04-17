@@ -29,7 +29,7 @@ Some of the topics that were covered in the lecture (not in the correct order!).
 	- [[Double Descent]]
 - [[content/notes/machine-learning/cross validation]]
 - [[Support Vector Machines]]
-- [[Logistic Regression]]
+- [[content/notes/machine-learning/Logistic Regression]]
 - [[content/notes/machine-learning/lda]]
 - [[Quadratic Discriminant Analysis]]
 - [[Bootstrap Based Test]]

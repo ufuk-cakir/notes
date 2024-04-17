@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/notes/machine-learning/logistic regression.md",
+                "file": "content/notes/machine-learning/Logistic Regression.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/notes/machine-learning/logistic regression.md",
+                "file": "content/notes/machine-learning/Logistic Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/notes/machine-learning/logistic regression.md",
+                "file": "content/notes/machine-learning/Logistic Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/notes/machine-learning/logistic regression.md"
+                "file": "content/notes/machine-learning/Logistic Regression.md"
               }
             }
           }
@@ -149,6 +149,9 @@
   },
   "active": "7b7afc63f51e5f03",
   "lastOpenFiles": [
+    "content/notes/machine-learning/machine learning essentials.md",
+    "content/notes/lectures/computational-statistics/Computational Statistics and Data Analysis.md",
+    "content/notes/machine-learning/Logistic Regression.md",
     "content/notes/machine-learning/cross validation.md",
     "content/notes/machine-learning/covariance matrix.md",
     "content/notes/machine-learning/backpropagation.md",
@@ -160,11 +163,8 @@
     "content/notes/machine-learning/Multi variate Gaussian.md",
     "content/notes/machine-learning/multi class classification.md",
     "content/notes/machine-learning/mode collapse.md",
-    "content/notes/machine-learning/machine learning essentials.md",
-    "content/notes/machine-learning/logistic regression.md",
     "content/notes/machine-learning/lda.md",
     "content/_index.md",
-    "content/notes/lectures/computational-statistics/Computational Statistics and Data Analysis.md",
     "content/notes/lectures/computational-statistics/Lasso Regression.md",
     "content/notes/lectures/computational-statistics/Exponential Family.md",
     "content/notes/lectures/computational-statistics/Conjugate Prior.md",

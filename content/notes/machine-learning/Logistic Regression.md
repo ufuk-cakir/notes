@@ -7,11 +7,10 @@ Use the same posterior as [[content/notes/machine-learning/lda]], but train LHS 
 ## i.i.d assumption: 
 all labels are drawn independently from same posterior
 
-
-$$p((Y_{i}^{\ast})_{i=1}^{N} \mid (X_{i})_{i=1}^{N})=\prod_{i=0}^Np(Y_i^{\ast} \mid X_i)$$
+$$p((Y_{i}^{\ast})_{i=1}^{N} \mid (X_{i})_{i=1}^{N})=\prod_{i=1}^Np(Y_i^{\ast} \mid X_i)$$
 ## Maximum Likelihood Principle
 choose Parameters such that posterior of TS is maximized
-$$\hat{\beta},\hat{b} =\text { argmax }_{\beta, b} \prod_{i=1}^{N} p\left(Y_{i}^{\ast}\mid X_{i}\right)$$ $$=\arg \min-\sum\limits_{i}^{N}\log p\left(Y_{i}^{\ast}\mid X_{i}\right)= \arg \min \sum\limits_{i: Y_{i}^{\ast}=1} \sigma(x\beta+b)-\sum\limits_{i: Y_{i}^{\ast}=-1} \sigma(-(x\beta+b))$$
+$$\hat{\beta},\hat{b} =\text { argmax }_{\beta, b} \prod_{i=1}^{N} p\left(Y_{i}^{\ast}\mid X_{i}\right)$$ $$=\arg \min-\sum\limits_{i}^{N}\log p(Y_{i}^{\ast}\mid X_{i})= \arg \min \sum\limits_{i: Y_{i}^{\ast}=1} \sigma(x\beta+b)-\sum\limits_{i: Y_{i}^{\ast}=-1} \sigma(-(x\beta+b))$$
 
 
 which gives
