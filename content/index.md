@@ -14,4 +14,5 @@ Cheers,
 Ufuk
 
 # Contents
-- [[Logistic Regression]]
+- [[content/lectures/index|index]]
+- 
