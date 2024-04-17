@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/_index.md",
+                "file": "content/notes/machine-learning/logistic regression.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/_index.md",
+                "file": "content/notes/machine-learning/logistic regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/_index.md",
+                "file": "content/notes/machine-learning/logistic regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/_index.md"
+                "file": "content/notes/machine-learning/logistic regression.md"
               }
             }
           }
@@ -149,33 +149,33 @@
   },
   "active": "7b7afc63f51e5f03",
   "lastOpenFiles": [
-    "content/notes/lectures/computational-statistics/Computational Statistics and Data Analysis.md",
+    "content/notes/machine-learning/cross validation.md",
+    "content/notes/machine-learning/covariance matrix.md",
+    "content/notes/machine-learning/backpropagation.md",
+    "content/notes/lectures/computational-statistics/Multivariate Gaussian.md",
+    "content/notes/lectures/computational-statistics/Regularization.md",
+    "content/notes/lectures/computational-statistics/Ridge Regression.md",
+    "content/notes/machine-learning/learning beta and b.md",
+    "content/notes/machine-learning/neural networks.md",
+    "content/notes/machine-learning/Multi variate Gaussian.md",
+    "content/notes/machine-learning/multi class classification.md",
+    "content/notes/machine-learning/mode collapse.md",
+    "content/notes/machine-learning/machine learning essentials.md",
+    "content/notes/machine-learning/logistic regression.md",
+    "content/notes/machine-learning/lda.md",
     "content/_index.md",
-    "content/notes/machine-learning/Cross Validation.md",
-    "content/notes/machine-learning/Machine Learning Essentials.md",
-    "content/notes/machine-learning/Linear Discriminant Analysis.md",
+    "content/notes/lectures/computational-statistics/Computational Statistics and Data Analysis.md",
     "content/notes/lectures/computational-statistics/Lasso Regression.md",
     "content/notes/lectures/computational-statistics/Exponential Family.md",
     "content/notes/lectures/computational-statistics/Conjugate Prior.md",
-    "content/notes/lectures/computational-statistics/Ridge Regression.md",
-    "content/notes/lectures/computational-statistics/Regularization.md",
     "content/templates/post.md",
     "static/icon.png",
-    "content/notes/lectures/computational-statistics/Multivariate Gaussian.md",
-    "content/notes/machine-learning/Multi variate Gaussian.md",
-    "content/notes/machine-learning/Multi Class Classification.md",
-    "content/notes/machine-learning/Neural Networks.md",
     "content/notes/machine-learning/Non Linear Classification.md",
     "content/notes/machine-learning/Softmax Function.md",
     "content/notes/machine-learning/Normalizing Flows.md",
     "content/notes/machine-learning/Softplus Function.md",
     "content/notes/machine-learning/Summary Linear Classification.md",
     "content/notes/machine-learning/cross-entropy loss.md",
-    "content/notes/machine-learning/Mode Collapse.md",
-    "content/notes/machine-learning/Logisitic Regression.md",
-    "content/notes/machine-learning/Gaussian Distribution in 1-D.md",
-    "content/notes/machine-learning/Covariance Matrix.md",
-    "content/notes/machine-learning/Backpropagation.md",
     "content/notes/lectures/computational-statistics",
     "content/notes/lectures"
   ]

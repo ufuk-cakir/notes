@@ -2,14 +2,15 @@
 title: "Logisitic Regression"
 ---
 
-Use the same posterior as [[Linear Discriminant Analysis]], but train LHS of Bayes rule, which gives a different solution.
+Use the same posterior as [[content/notes/machine-learning/lda]], but train LHS of Bayes rule, which gives a different solution.
 
-
-- i.i.d assumption: all labels are drawn independently from same posterior
+## i.i.d assumption: 
+all labels are drawn independently from same posterior
 
 
 $$p((Y_{i}^{\ast})_{i=1}^{N} \mid (X_{i})_{i=1}^{N})=\prod_{i=0}^Np(Y_i^{\ast} \mid X_i)$$
-- Maximum Likelihood Principle: choose Parameters such that posterior of TS is maximized
+## Maximum Likelihood Principle
+choose Parameters such that posterior of TS is maximized
 $$\hat{\beta},\hat{b} =\text { argmax }_{\beta, b} \prod_{i=1}^{N} p\left(Y_{i}^{\ast}\mid X_{i}\right)$$ $$=\arg \min-\sum\limits_{i}^{N}\log p\left(Y_{i}^{\ast}\mid X_{i}\right)= \arg \min \sum\limits_{i: Y_{i}^{\ast}=1} \sigma(x\beta+b)-\sum\limits_{i: Y_{i}^{\ast}=-1} \sigma(-(x\beta+b))$$
 
 
@@ -19,7 +20,8 @@ $$\hat\beta,\hat b=\arg \min_{\beta,b}-\sum\limits_{i=1}^{N}\sum\limits_{k}1[Y_{
 
 
 What is the logarithm of the sigmoid?
-![[Softplus Function]]
+
+--> [[Softplus Function]]
 
 
 Common convention in literature is to write the labels as

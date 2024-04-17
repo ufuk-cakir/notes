@@ -27,10 +27,10 @@ Some of the topics that were covered in the lecture (not in the correct order!).
 - [[Lasso Regression]]
 - [[Bias Variance Tradeoff]]
 	- [[Double Descent]]
-- [[Cross Validation]]
+- [[content/notes/machine-learning/cross validation]]
 - [[Support Vector Machines]]
 - [[Logistic Regression]]
-- [[Linear Discriminant Analysis]]
+- [[content/notes/machine-learning/lda]]
 - [[Quadratic Discriminant Analysis]]
 - [[Bootstrap Based Test]]
 

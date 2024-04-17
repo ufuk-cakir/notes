@@ -61,6 +61,6 @@ Possible interpretation:
 The error people did up to 2005 was that since 2-layers are sufficient, only use 2-layer nets. But it was found that deeper networks are easier to train since the probability that you end up in a good local optimum is essentially 1
 
 
-Trainint of these Networks is done by [[Backpropagation]]
+Trainint of these Networks is done by [[content/notes/machine-learning/backpropagation]]
 
 
