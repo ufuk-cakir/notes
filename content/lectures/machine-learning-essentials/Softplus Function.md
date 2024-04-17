@@ -8,4 +8,4 @@ tags:
 $$
 -\log \sigma(t)=-\log \frac{1}{1+\exp (-t)}=\log (1+\exp (-t))
 $$
-Is like a smoothed Version of [[ReLu]].
+Is like a smoothed Version of [[ReLU]].
