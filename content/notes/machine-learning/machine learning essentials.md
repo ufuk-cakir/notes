@@ -10,14 +10,12 @@ Here are some of my Lecture Notes of the Machine Learning Essentials Lecture by 
 
 # Covered topics
 
-- [[content/notes/machine-learning/cross validation]]
-- [[content/notes/machine-learning/lda]]
-- [[content/notes/machine-learning/learning beta and b]]
-- [[Summary Linear Classification]]
-- [[content/notes/machine-learning/multi class classification]]
-- [[Non Linear Classification]]
-- [[content/notes/machine-learning/neural networks]]
-- [[content/notes/machine-learning/backpropagation]]
-
+- [[content/notes/machine-learning/lda|Linear Discriminant Analysis]]
+- [[content/notes/machine-learning/backpropagation|Backpropagation]]
+- [[content/notes/machine-learning/neural networks|Neural Networks]]
+- [[content/notes/machine-learning/cross validation|Cross Validation]]
+- [[content/notes/machine-learning/Logistic Regression|Logistic Regression]]
+- [[content/notes/machine-learning/multi class classification|Multi Class Classification]]
+- 
 
 
