@@ -82,3 +82,9 @@ with this workflow you can connect concept notes in your vault to literature. Fo
 Check [[zotero-obsidian-setup]] for more information on how to setup this workflow.
 
 
+
+----
+>[!info] 
+>Questions or suggestions on how to improve this note? 
+>[Raise an issue on GitHub!](https://github.com/ufuk-cakir/notes/blob/v4/content/blog/obsidian/introduction.md)
+

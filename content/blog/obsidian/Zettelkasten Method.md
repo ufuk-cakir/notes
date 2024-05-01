@@ -7,4 +7,10 @@ The Zettelkasten Method is a note-taking system that involves creating individua
 
 # Further References
 - https://zettelkasten.de/overview/
-- 
+
+
+
+----
+>[!info] 
+>Questions or suggestions on how to improve this note? 
+>[Raise an issue on GitHub!](https://github.com/ufuk-cakir/notes/tree/v4/content/blog/obsidian/Zettelkasten%20Method.md) 
