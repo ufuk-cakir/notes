@@ -14,5 +14,5 @@ Cheers,
 Ufuk
 
 # Contents
-- [[content/lectures/index|index]]
-- 
+- [[lectures/index|📚 Lectures]]
+- [[blog/index|📰 Blog]]

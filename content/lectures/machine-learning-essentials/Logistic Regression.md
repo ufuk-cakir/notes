@@ -9,6 +9,7 @@ all labels are drawn independently from same posterior
 $$p((Y_i^\ast)_{i=1}^N \mid (X_i)_{i=1}^N) = \prod_{i=1}^N p(Y_i^\ast \mid X_i)$$
 ## Maximum Likelihood Principle
 choose Parameters such that posterior of TS is maximized
+
 $$\hat{\beta}, \hat{b} = \text{arg max}_{\beta, b} \prod_{i=1}^N p(Y_i^\ast \mid X_i)$$
 $$= \arg\min \left(-\sum_{i=1}^N \log p(Y_i^\ast \mid X_i)\right)$$
 $$
