@@ -140,3 +140,8 @@ Options:
 - `-a`: Archive mode, preserves file attributes.
 - `-v`: Verbose mode, shows transfer details.
 - `-P`: Partial transfer support and shows progress.
+
+
+>[!info] 
+>Questions or suggestions on how to improve this note? 
+>[Raise an issue on GitHub!](https://github.com/ufuk-cakir/notes/blob/v4/content/intelligent-earth/ARC%20Compute%20Server.md)
