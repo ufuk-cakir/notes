@@ -12,8 +12,8 @@ If you need more information,  please write me an email :)
 
 Cheers,
 Ufuk
-
+	
 # Contents
 - [[lectures/index|📚 Lectures]]
 - [[blog/index|📰 Blog]]
-- [[content/intelligent-earth/index| Intelligent Earth]]
+- [[intelligent-earth/index| 🌎 Intelligent Earth]]
