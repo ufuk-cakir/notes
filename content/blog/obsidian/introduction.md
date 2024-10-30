@@ -79,7 +79,7 @@ You can use a combination of a reference manager like Zotero and Obsidian, and t
 
 with this workflow you can connect concept notes in your vault to literature. For example if you come back months later, you could see in the graph view that *Balkiz et al.* used Genetic Algorithms in their methodology, without having to read thorugh the paper. Cool right?
 
-Check [[zotero-obsidian-setup]] for more information on how to setup this workflow.
+Check [[Obsidian Plugins]] for more information on how to setup this workflow, and for which plugins I currently use.
 
 
 
