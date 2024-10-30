@@ -41,6 +41,9 @@ Obsidian helps you to link those two concepts in an explicitly and visual way. I
 
 This helps me because I can see instantly, which concepts are related in the graph view.
 
+>[!info] 
+>You can color specific nodes by opening the settings page in the graph view, and defining specific `Groups`. Here you can filter for metadata. For Example, everythin that is yellow are notest that have the `type` field set to `poster`, which are all the research posters I took pictures from at conferences!
+
 
 # Use Cases
 
