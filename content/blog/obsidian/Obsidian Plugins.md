@@ -67,26 +67,22 @@ You can find the Zotero obsidian template that I currently use is
 ```
 ---
 type: literature
-title:
-  "{ title }": 
-authors:
-  "{ authors }": 
-year:
-  "{ date | format(\"YYYY\") }": 
-publisher:
-  "{ publicationTitle }": 
-keywords:
-  - "{ allTags }": 
-citekey:
-  "{ citekey }":
+title: {{title}} 
+authors: {{authors}} 
+year: {{date | format(\"YYYY\")}}
+publisher: {{publicationTitle}} 
+keywords: {{allTags}} 
+citekey: {{citekey}}
 ---
-> [!meta]- Metadata
-> abstract:: {{abstractNote}}
-> zotero_link:: {{pdfZoteroLink}}
-> Related:: {% for relation in relations -%} {%- if relation.citekey -%} [[{{relation.citekey}}]], {% endif -%} {%- endfor%}
-> url:: {{url}}
-> doi:: {{doi}}
-> bibliography:: {{bibliography}}
+
+> [!note]- Metadata
+> {{abstractNote}}
+>
+> Zotero Link: {{pdfZoteroLink}}
+> Related: {% for relation in relations -%} {%- if relation.citekey -%} [[{{relation.citekey}}]], {% endif -%} {%- endfor%}
+> url: {{url}}
+> doi: {{doi}}
+> bibliography: {{bibliography}}
 
 ---
 ### Webpage
